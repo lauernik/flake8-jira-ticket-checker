@@ -1,0 +1,1 @@
+# flake8-jira-ticket-checker
