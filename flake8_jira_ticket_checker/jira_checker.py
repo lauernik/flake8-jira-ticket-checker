@@ -7,7 +7,7 @@ from typing import Generator, Tuple, Optional
 from jira import JIRA
 from jira.exceptions import JIRAError
 
-from ._version import __version__
+from .__version__ import __version__
 
 
 class JiraTicketChecker:

@@ -41,5 +41,5 @@ where = ["."]
 include = ["flake8_jira_ticket_checker*"]
 
 [tool.setuptools.dynamic]
-version = {attr = "flake8_jira_ticket_checker._version.__version__"}
+version = {attr = "flake8_jira_ticket_checker.__version__.__version__"}
 dependencies = {file = ["requirements.txt"]}

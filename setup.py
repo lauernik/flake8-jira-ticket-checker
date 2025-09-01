@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from flake8_jira_ticket_checker._version import __version__
+from flake8_jira_ticket_checker.__version__ import __version__
 
 
 # Read requirements from requirements.txt
