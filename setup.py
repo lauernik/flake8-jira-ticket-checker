@@ -1,13 +1,5 @@
 from setuptools import setup, find_packages
-import os
-
-
-# Read version from _version.py
-def get_version():
-    version_file = os.path.join(os.path.dirname(__file__), 'flake8_jira_ticket_checker', '_version.py')
-    with open(version_file, 'r') as f:
-        exec(f.read())
-    return locals()['__version__']
+from flake8_jira_ticket_checker._version import __version__
 
 
 # Read requirements from requirements.txt
@@ -18,7 +10,7 @@ def read_requirements():
 
 setup(
     name="flake8-jira-ticket-checker",
-    version=get_version(),
+    version=__version__,
     description="Flake8 plugin to check JIRA ticket status",
     author="Nikita Lauer",
     author_email="lauernik@gmail.com",
