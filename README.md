@@ -43,7 +43,7 @@ jira_timeout = 3
 
 ## Error Codes
 
-- `JTC001` - JIRA ticket is in DONE/CLOSED/RESOLVED status and should be removed
+- `JTC001` - JIRA ticket is in DONE/CLOSED status and should be removed
 - `JTC002` - JIRA ticket not found
 
 ## Supported Link Formats
@@ -55,7 +55,7 @@ The plugin finds links like:
 
 ## Ticket Status
 
-Tickets are considered closed if their status is: DONE, CLOSED, RESOLVED
+Tickets are considered closed if their status is: DONE, CLOSED
 
 ## Configuration Options
 

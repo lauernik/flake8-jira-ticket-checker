@@ -355,7 +355,7 @@ class JiraTicketChecker:
             status_name = issue.fields.status.name.upper()
 
             # Check if ticket is closed
-            return "DONE" if status_name in ["DONE", "CLOSED", "RESOLVED"] else "OPEN"
+            return "DONE" if status_name in ["DONE", "CLOSED"] else "OPEN"
 
         except JIRAError as e:
             if e.status_code == 404:
